@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>businessxstream.com
+    </title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
      <!-- Font Awesome CSS -->
@@ -109,23 +110,25 @@
         height: 300px; /* Adjust card height for smaller screens */
     }
 }
-
-
-
 .container {
       max-width: 1200px;
       margin: 20px auto;
       padding: 20px;
     }
+
     .heading {
       text-align: center;
       margin-bottom: 20px;
+      font-size: 24px;
+      color: #444;
     }
+
     .franchise-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
     }
+
     .franchise-card {
       background: #fff;
       border: 1px solid #ddd;
@@ -133,20 +136,35 @@
       padding: 20px;
       text-align: center;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
     }
+
+    .franchise-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
     .franchise-card img {
-      max-width: 100px;
+      max-height: 100px;
+      max-width: 1000px;
       margin-bottom: 15px;
+      object-fit: contain;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
+
     .franchise-card h3 {
       font-size: 18px;
       margin-bottom: 10px;
       color: #333;
     }
+
     .franchise-card p {
       font-size: 14px;
       margin: 5px 0;
     }
+
     .know-more-btn {
       display: inline-block;
       margin-top: 10px;
@@ -158,9 +176,289 @@
       border-radius: 5px;
       transition: background-color 0.3s;
     }
+
     .know-more-btn:hover {
       background-color: #d32f2f;
     }
+
+
+
+
+
+
+    .events-section {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .events-section h2 {
+      font-size: 24px;
+      text-align: left;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .events-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .event-card {
+      display: flex;
+      flex-direction: row;
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     
+    }
+
+    .event-image {
+      flex: 2;
+      background-color: #eee;
+    }
+
+    .event-image img {
+      width: 100%;
+      height: 100%;
+     
+    }
+
+    .event-content {
+      flex: 2;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .event-content h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .event-content p {
+      font-size: 14px;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    .event-content .event-info {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .register-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      font-size: 14px;
+      background-color: #28a745;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      text-align: center;
+      transition: background-color 0.3s;
+    }
+
+    .register-btn:hover {
+      background-color: #218838;
+    }
+
+
+    
+
+
+
+.footer-distributed{
+	background: #000;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+    margin-top: 40px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
 
     </style>
 </head>
@@ -178,16 +476,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="./ragestr.html">Registration</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Pricing</a>
+                        <a class="nav-link" href="./about.html">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="./contect.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -277,12 +575,16 @@
         </div>
     </section>
 
-
     <div class="container">
-        <h2 class="heading">Leading Franchises Today</h2>
+        <div class="services-title">
+            <h2>Leading Franchises Toda</h2>
+            
+        </div>
+       
         <div class="franchise-grid">
+          <!-- Card 1 -->
           <div class="franchise-card">
-            <img src="hush-puppies-logo.png" alt="Hush Puppies">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLn_QzaenZpjDiOwOzidAXYYw91fQrWIR7BIP6a0i4DtC_0YQcnQ88qDKLNTdrVbrTyF0&usqp=CAU" alt="Hush Puppies">
             <h3>Hush Puppies</h3>
             <p>Fashion</p>
             <p>Investment range: ₹20L - 30L</p>
@@ -290,8 +592,9 @@
             <p>Franchise Outlets: 500-1000</p>
             <a href="#" class="know-more-btn">Know More</a>
           </div>
+          <!-- Card 2 -->
           <div class="franchise-card">
-            <img src="high-joint-logo.png" alt="The High Joint">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF1CZHQ84ZfSBeIPHpgJtrU_BrII7SOeTMYg&s100" alt="The High Joint">
             <h3>The High Joint</h3>
             <p>Food and Beverage</p>
             <p>Investment range: ₹10L - 20L</p>
@@ -299,8 +602,9 @@
             <p>Franchise Outlets: 10-20</p>
             <a href="#" class="know-more-btn">Know More</a>
           </div>
+          <!-- Card 3 -->
           <div class="franchise-card">
-            <img src="servall-logo.png" alt="Servall Automotive">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/a1/Hush_Puppies_logo.png" alt="Servall Automotive">
             <h3>Servall Automotive</h3>
             <p>Automotive</p>
             <p>Investment range: ₹5L - 10L</p>
@@ -308,8 +612,9 @@
             <p>Franchise Outlets: 20-50</p>
             <a href="#" class="know-more-btn">Know More</a>
           </div>
+          <!-- Card 4 -->
           <div class="franchise-card">
-            <img src="vista-logo.png" alt="Vista Furnishing">
+            <img src="https://tiimg.tistatic.com/co_logo/76515833/vista-furnishing-ltd--v4.jpg" alt="Vista Furnishing">
             <h3>Vista Furnishing</h3>
             <p>Retail</p>
             <p>Investment range: ₹30L - 50L</p>
@@ -319,7 +624,108 @@
           </div>
         </div>
       </div>
-    
+
+        <div class="services-title">
+            <h2>Upcoming Events</h2>
+            
+        </div>
+      
+      <div class="events-section">
+       
+        <div class="events-grid">
+          <!-- Event 1 -->
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://www.jioworldcentre.com/documents/35271/0/Franchise-expo-380x400.jpg/39dd673c-2d89-89b9-ee9c-398a7f28b50b?t=1732269657740" alt="Franchise India 2024">
+            </div>
+            <div class="event-content">
+              <h3>Franchise India 2024 Mumbai</h3>
+              <p class="event-info">
+                📅 29-30 Nov 2024 &nbsp; | &nbsp; 📍 Jio World Convention Centre, Mumbai
+              </p>
+              <p>
+                Join over 500 Franchisors and 50,000+ verified buyers. A 2-day expo with unlimited franchise opportunities across various sectors.
+              </p>
+              <a href="#" class="register-btn">REGISTER NOW</a>
+            </div>
+          </div>
+          <!-- Event 2 -->
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXHbKQSOS0DIyBwT4vQB_iup3lMm0dA-rEZA&s" alt="IReC 2024">
+            </div>
+            <div class="event-content">
+              <h3>IReC 2024</h3>
+              <p class="event-info">
+                📅 29-30 Nov 2024 &nbsp; | &nbsp; 📍 Jio World Convention Centre, Mumbai
+              </p>
+              <p>
+                India's largest Retail & Licensing extravaganza. Unlock the future of retail and licensing in this ultimate industry convergence.
+              </p>
+              <a href="#" class="register-btn">REGISTER NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+
+
+      
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+        <img src="./WhatsApp_Image_2025-01-23_at_2.40.03_PM-removebg-preview.png" alt="Logo" style="height: 150px;"> <!-- Replace 'logo-image.png' with your logo's path -->
+             
+        
+
+        <p class="footer-links">
+            <a href="#" class="link-1">Home</a>
+            
+            <a href="#">Blog</a>
+        
+            <a href="#">Pricing</a>
+        
+            <a href="#">About</a>
+            
+            <a href="#">Faq</a>
+            
+            <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name" style="color: #fff;">© 2025 Developed & Designed by NextDev Labs </p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>NO 103 Shrija Towers Kolachalam Compound ,Ballari-583101,KA</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+91 97312636690</p>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">Support@businessxstream.com</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>About the company</span>
+            BusinessXstream.com empowers entrepreneurs and businesses to achieve their full potential through personalized support, actionable strategies, and cutting-edge tools. They specialize in simplifying the journey of business growth and franchising.
+        </p>
+
+
+    </div>
+
+</footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
